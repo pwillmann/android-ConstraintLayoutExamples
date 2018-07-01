@@ -41,8 +41,10 @@ class MainActivity : AppCompatActivity(), CompoundButton.OnCheckedChangeListener
             DemosAdapter.Demo("Complex Motion Example (3/4)", "Advanced CoordinatorLayout-like behavior (adding a FAB). Implemented with MotionLayout only, using direct resizing of the view.", R.layout.motion_19_coordination),
             DemosAdapter.Demo("Complex Motion Example (4/4)", "Advanced Synchronized reval motion + helper (bounce). Implemented with MotionLayout only.", R.layout.motion_20_reveal),
             DemosAdapter.Demo("Fragment Transition Example (1/2)", "Example showing transitioning fragments within MotionLayout", FragmentExampleActivity::class.java),
-            DemosAdapter.Demo("Fragment Transition Example (2/2)", "Example showing transitioning fragments within MotionLayout", FragmentExample2Activity::class.java)
-    )
+            DemosAdapter.Demo("Fragment Transition Example (2/2)", "Example showing transitioning fragments within MotionLayout", FragmentExample2Activity::class.java),
+            DemosAdapter.Demo("Custom Complex Motion Example (5)", "Advanced CoordinatorLayout-like behavior with an avatar. Implemented with MotionLayout only, using direct resizing of the view.", R.layout.motion_24_coordination)
+
+            )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
